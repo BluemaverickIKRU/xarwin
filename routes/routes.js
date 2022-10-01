@@ -9,7 +9,7 @@ const {
 const router = express.Router();
 
 router.get('/', (req, res) => {
-  res.send('Welcome to record system API !');
+  res.send('Welcome to Record System API !');
 });
 
 router.get('/getRecord', async (req, res) => {
