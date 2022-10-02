@@ -19,7 +19,7 @@ connectDb();
 const httpServer = http.createServer(app);
 const io = new Server(httpServer, {
   cors: {
-    origin: ['https://jolly-smakager-df4f3f.netlify.app/'],
+    origin: ['https://jolly-smakager-df4f3f.netlify.app'],
   },
 });
 
